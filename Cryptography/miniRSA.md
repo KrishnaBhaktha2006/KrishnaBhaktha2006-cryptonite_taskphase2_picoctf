@@ -4,7 +4,7 @@
 
 How you approached the challenge:
 
-- Step 1: Before actually satrting the cryptography section i had read the first two links and then started the question.So as soon as i saw the question title and the contents in the fiel ciphertext i came to know that this is a question uses rsa encryption.So i sent the three values given in the file to chtgpt to calculate the value of plaintext so chtgpt recommended me to find the cube root of the ciphertext.
+- Step 1: Before actually satrting the cryptography section i had read the first two links and then started the question.So as soon as i saw the question title and the contents in the file ciphertext i came to know that this is a question uses rsa encryption.So i sent the three values given in the file to chtgpt to calculate the value of plaintext so chtgpt recommended me to find the cube root of the ciphertext.
 so i searched for the code in python to find cube root of a large number in stack overflow i got the code.
 
 ```
@@ -28,7 +28,7 @@ def find_invpow(x,n):
 
 print(find_invpower(2205316413931134031074603746928247799030155221252519872650080519263755075355825243327515211479747536697517688468095325517209911688684309894900992899707504087647575997847717180766377832435022794675332132906451858990782325436498952049751141,3))
 ```
-on doing that i got an answer 13016382529449106065894479374027604750406953699090365388203722801043052339225981 after that when i put the number in chatgpt it said to use 
+on doing that i got an answer 13016382529449106065894479374027604750406953699090365388203722801043052339225981 after that when i put the number in chatgpt it said to Convert the integers to bytes
 ```
 #Convert the integer to a byte string
 plaintext_integer = 13016382529449106065894479374027604750406953699090365388203722801043052339225981
