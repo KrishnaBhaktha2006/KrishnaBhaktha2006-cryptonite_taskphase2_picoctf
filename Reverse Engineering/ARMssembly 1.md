@@ -15,7 +15,8 @@ str	w0, [sp, 20]
 mov	w0, 3
 str	w0, [sp, 24]
 ```
-from this we can say that w0 = 87,w1 = 3, w2 = 3
+from this we can say that w0(1) = 87,w0(2) = 3, w0(3) = 3
+and later w0 = 3 and w1 = 87
 ```
 ldr	w0, [sp, 20]
 	ldr	w1, [sp, 16]
@@ -23,7 +24,7 @@ ldr	w0, [sp, 20]
 	str	w0, [sp, 28]
 ```
 When i read hint it said shift so i thought this might be bitwise shift
-now acc to this code we did left shift of w0 w1 times and stored it in w0 which is in turn stored in sp+28 posiition
+now acc to this code we did left shift of w1 w0 times and stored it in w0 which is in turn stored in sp+28 posiition
 87 shifted to left 3 times gives 696
 ```
 ldr	w1, [sp, 28]
