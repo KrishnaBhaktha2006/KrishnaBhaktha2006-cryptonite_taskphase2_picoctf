@@ -10,6 +10,7 @@ How you approached the challenge:
 
 But it took me a lot of time to write that the passphrase was nothing
 i tried with nonsense stuff like Atbash, ATBASH, atbash and it didnt work LoL!
+and after that i put it in atbash cipher of boxentriq and ye it worked and i got my flag!!
 
 What you learned through solving this challenge:
 
@@ -21,4 +22,4 @@ Other incorrect methods you tried:
 
 References
 
-- No references
+- https://www.boxentriq.com/code-breaking/atbash-cipher
